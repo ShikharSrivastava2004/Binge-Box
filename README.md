@@ -55,10 +55,5 @@ npm run dev
 
 This project is licensed under the MIT License.
 
-##  Screenshots
-
-### 🏠 Home Page
-![Home Page](./screenshot/home.png)
-
-### 🤖 AI Recommendation Page
-![AI Recommendation](./screenshot/ai-recommendation.png)
+## Live Preview
+[https://](https://epicon.netlify.app/)
