@@ -54,3 +54,11 @@ npm run dev
 ## 📃 License
 
 This project is licensed under the MIT License.
+
+## 📷 Screenshots
+
+### 🏠 Home Page
+![Home Page](./screenshot/homepage.png)
+
+### 🤖 AI Recommendation Page
+![AI Recommendation](./screenshot/ai-recommendation.png)
