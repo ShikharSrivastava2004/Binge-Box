@@ -55,7 +55,7 @@ npm run dev
 
 This project is licensed under the MIT License.
 
-## 📷 Screenshots
+##  Screenshots
 
 ### 🏠 Home Page
 ![Home Page](./screenshot/home.png)
