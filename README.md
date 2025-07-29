@@ -45,3 +45,12 @@ npm install
 
 # Run the app (both frontend and backend)
 npm run dev
+
+## 👤 Author
+
+**Shikhar Srivastava**  
+[GitHub](https://github.com/ShikharSrivastava2004)
+
+## 📃 License
+
+This project is licensed under the MIT License.

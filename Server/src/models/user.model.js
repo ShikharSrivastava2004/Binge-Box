@@ -33,7 +33,8 @@ const userSchema = new mongoose.Schema({
     // avatar: {
     //   type: String, // cloudinary url
     // },
-   
+   clickedMovies: [{ type: String }], // store TMDB movie IDs
+   searchHistory: [{ type: String }],
    
     refreshToken: {
       type: String
