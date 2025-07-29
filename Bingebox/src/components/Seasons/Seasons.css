@@ -1,0 +1,47 @@
+.seasons{
+  
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #abcace45;
+  border-radius: 10px;
+  gap: 20px;
+  width: 70%;
+
+  h3{
+    font-size: 20px;
+    opacity: 0.9;
+    margin-top: 10px;
+  }
+
+  .seasonDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+    width: 100%;
+    flex-wrap: wrap; 
+  }
+  .car{
+    text-decoration: none;
+    img{
+      width: 150px;
+      height: 225px;
+      border-radius: 5px;
+
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+    p{
+      color: white;
+      
+      
+    }
+  }
+}

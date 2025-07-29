@@ -1,0 +1,40 @@
+.splayer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.prev {
+  position: absolute;
+  top: 27px;
+  left: 20px;
+  width: 15px;
+  cursor: pointer;
+}
+
+.epandpl {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+  margin-top: 100px;
+}
+
+iframe {
+  width: 100%;
+  height: 60vh; /* Adjust the height as needed */
+}
+
+@media (min-width: 851px) {
+  .epandpl {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  iframe, .epandpl > div {
+    width: 100%;
+  }
+}

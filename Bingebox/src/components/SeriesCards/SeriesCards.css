@@ -1,0 +1,108 @@
+/* .SeriesCards{
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+  h2{
+    margin-bottom: 8px;
+  }
+
+  .series-list{
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+  ::-webkit-scrollbar{
+    display: none;
+  }
+    img{
+      width: 150px;
+      border-radius: 4px;
+      cursor: pointer;
+      height: 210px;
+    }
+
+    .scard{
+      position: relative;
+      cursor: pointer;
+      gap: 20px;
+      p{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+} */
+
+.SeriesCards{
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+  h2{
+    margin-bottom: 8px;
+  }
+
+  .series-list{
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+  ::-webkit-scrollbar{
+    display: none;
+  }
+    img{
+      width: 135px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .scard{
+      position: relative;
+      cursor: pointer;
+      p{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+}
+
+
+@media (max-width:800px) {
+  .SeriesCards{
+    margin-top: 20px;
+    margin-bottom: 0;
+
+    h2{
+      font-size: 20px;
+    }
+  }
+
+  .series-list img{
+    width: 200px;
+  }
+
+  .series-list p{
+      font-size: 12px;
+  }
+}
+
+@media (max-width:500px) {
+  .SeriesCards{
+   
+
+    h2{
+      font-size: 15px;
+    }
+  }
+
+  .series-list img{
+    width: 165px;
+  }
+  .series-list p{
+    font-size: 12px;
+}
+}
