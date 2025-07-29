@@ -56,4 +56,4 @@ npm run dev
 This project is licensed under the MIT License.
 
 ## Live Preview
-[https://](https://epicon.netlify.app/)
+https://epicon.netlify.app/
